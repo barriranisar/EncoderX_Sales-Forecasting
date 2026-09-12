@@ -38,9 +38,6 @@ All models were evaluated on the **1,260 unseen test samples** using Mean Absolu
 | 🥈 **XGBoost Regressor** | $43,015.76 | $60,878.78 | 0.9870 (98.70%) | Second Best |
 | 🥉 **Linear Regression** | $51,250.47 | $71,430.08 | 0.9821 (98.21%) | Baseline |
 
-> **Note on ARIMA vs. Machine Learning:**
-> While ARIMA is a standard univariate time-series technique, it yielded a significantly higher error on aggregated sales ($MAE = \$1.50M, R^2 < 0$) because it cannot simultaneously model multi-store panel interactions and external macroeconomic drivers (`CPI`, `Unemployment`). Random Forest outperformed ARIMA on total weekly demand by **36.8%**.
-
 ---
 
 ## 📈 Visual Analytics & Diagnostic Highlights
